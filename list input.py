@@ -17,3 +17,4 @@ lambsum2 = functools.reduce((lambda x,y:x+y),newli)
 print(lambsum2)
 lambsum3 = functools.reduce((lambda x,y:x-y),li)
 print(lambsum3)
+
