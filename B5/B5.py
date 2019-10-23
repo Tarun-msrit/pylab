@@ -37,7 +37,5 @@ avg=sum/len(word)
 print ("Avg is",avg)
 
 sq=[]
-for x in word:
-	if x%2!=0:
-		sq.append(x*x)
+sq=[x*x for x in word if x%2 != 0]
 print(sq)
