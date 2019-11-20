@@ -9,7 +9,7 @@ def Max(n):
 #print(Max(n))
 import functools
 li=[1,2,3,4,5,6]
-newli=[i*3 for i in li]
+newli=[i*4 for i in li]
 print(newli)
 lambsum = functools.reduce((lambda x,y:x+y),li)
 print(lambsum)
